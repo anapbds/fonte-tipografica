@@ -1,11 +1,15 @@
 // GLOBAL VARS & TYPES
 let bilu:Et;
 
+let letra: L;
+
 function setup() {
 
   createCanvas(windowWidth, windowHeight)
   
   bilu = new Et("green", "black", "green");
+
+  letra = new L();
 }
 
 function windowResized() {
@@ -14,5 +18,5 @@ function windowResized() {
 
 function draw() {
   background("pink");
-  bilu.draw();
+  letra.draw();
 }
