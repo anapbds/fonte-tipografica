@@ -2,14 +2,13 @@ var bilu;
 var letra;
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    bilu = new Et("green", "black", "green");
     letra = new L();
 }
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
 function draw() {
-    background("pink");
+    background("white");
     letra.draw();
 }
 var Et = (function () {
@@ -39,7 +38,7 @@ var L = (function () {
     function L() {
     }
     L.prototype.draw = function () {
-        var casostring = 'D';
+        var casostring = 'M';
         var ni = 0;
         var vezes = 0;
         switch (casostring) {

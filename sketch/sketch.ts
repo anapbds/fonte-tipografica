@@ -5,9 +5,7 @@ let letra: L;
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight)
-  
-  bilu = new Et("green", "black", "green");
+  createCanvas(windowWidth, windowHeight);
 
   letra = new L();
 }
@@ -17,6 +15,6 @@ function windowResized() {
 }
 
 function draw() {
-  background("pink");
+  background("white");
   letra.draw();
 }

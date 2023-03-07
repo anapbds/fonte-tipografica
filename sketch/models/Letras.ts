@@ -1,7 +1,7 @@
 class L {
 
     public draw(){
-        const casostring: string ='D';
+        const casostring: string ='M';
         var ni=0; // parte interna das strings
         var vezes=0; // mais de uma parte interna das strings --B
         switch (casostring){
